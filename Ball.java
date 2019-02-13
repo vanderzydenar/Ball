@@ -8,7 +8,7 @@ public class Ball{
 	private Point2D.Double velocity;
 	private Color fill;
 
-	public static final double SPEED_FACTOR = 2;
+	public static final double SPEED_FACTOR = 10;
 
 	public Ball(double center_x, double center_y, double radius, Color fill){
 		center = new Point2D.Double(center_x, center_y);
